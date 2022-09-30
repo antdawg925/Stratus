@@ -8,7 +8,7 @@ export const Nav = () => {
             <div>
 
                 <h1 className="h-head"> Stratus Software Solutions </h1>
-                <h3> Website Development and Software Services </h3>
+                <h3 className="sub-t"> Website Development and Software Services </h3>
 
             </div>
 

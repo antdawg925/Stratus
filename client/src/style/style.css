@@ -1098,6 +1098,12 @@ li {
         width: calc(100vw - 6rem);
     }
 
+    .sub-t {
+        font-size: 10px;
+        padding: 0 1rem;
+        line-height: normal;
+    }
+
     #whatWeOffer {
         font-size: 40px;
         width: 90vw;
@@ -1184,6 +1190,8 @@ li {
 
     .h-head {
         font-size: 25px;
+        line-height: normal;
+        margin-bottom: 7px;
     }
 
     #fs-des {
