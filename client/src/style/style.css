@@ -593,6 +593,11 @@ li {
     padding: 2rem;
 }
 
+#mission {
+    width: 40%;
+    padding: 1rem
+}
+
 #conformation-box {
     position: absolute;
     top: 10rem;
@@ -1096,6 +1101,10 @@ li {
     .a-nav {
         padding-left: 6rem;
         width: calc(100vw - 6rem);
+    }
+
+    #mission {
+        width: 85%;
     }
 
     .sub-t {

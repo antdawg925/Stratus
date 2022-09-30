@@ -7,7 +7,7 @@ export const MissionState = () => {
 
                 <div id="h-pic"></div>
 
-                <div className="flex-col" style={{ width: "40%", padding: "1rem" }}>
+                <div className="flex-col" id="mission">
 
                     <h1 id="whatWeOffer">What we offer</h1>
                     <hr id="wide-hr" />

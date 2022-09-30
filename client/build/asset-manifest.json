@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.71f8a498.css",
-    "main.js": "/static/js/main.97ac51ee.js",
+    "main.css": "/static/css/main.68a8e91a.css",
+    "main.js": "/static/js/main.efe12da9.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/StratusNoBg.png": "/static/media/StratusNoBg.d69763c26bafcafed3c3.png",
     "static/media/bird-cloud-view.jpg": "/static/media/bird-cloud-view.90353b0c83d4bf8d8b63.jpg",
@@ -32,12 +32,12 @@
     "static/media/laptop (1).png": "/static/media/laptop (1).29869ef4ca9bbf2144f3.png",
     "static/media/mobile.png": "/static/media/mobile.61971c28d9743b0b7a7c.png",
     "index.html": "/index.html",
-    "main.71f8a498.css.map": "/static/css/main.71f8a498.css.map",
-    "main.97ac51ee.js.map": "/static/js/main.97ac51ee.js.map",
+    "main.68a8e91a.css.map": "/static/css/main.68a8e91a.css.map",
+    "main.efe12da9.js.map": "/static/js/main.efe12da9.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71f8a498.css",
-    "static/js/main.97ac51ee.js"
+    "static/css/main.68a8e91a.css",
+    "static/js/main.efe12da9.js"
   ]
 }
