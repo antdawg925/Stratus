@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.036eef25.css",
+    "main.js": "/static/js/main.170cd57d.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/StratusNoBg.png": "/static/media/StratusNoBg.d69763c26bafcafed3c3.png",
+    "static/media/bird-cloud-view.jpg": "/static/media/bird-cloud-view.90353b0c83d4bf8d8b63.jpg",
+    "static/media/davidPg.jpg": "/static/media/davidPg.e738720319fcb56795b2.jpg",
+    "static/media/optStore.png": "/static/media/optStore.ec1c640ad9e30e15e1b8.png",
+    "static/media/cloudNet.jpg": "/static/media/cloudNet.b723745626e905b698d2.jpg",
+    "static/media/fixedOrders.jpg": "/static/media/fixedOrders.abe886c5f9b4b3afbecb.jpg",
+    "static/media/fixedRestEx.jpg": "/static/media/fixedRestEx.09d272782892528b9f47.jpg",
+    "static/media/FSnoBg.png": "/static/media/FSnoBg.d04d42c475ea42eab4dc.png",
+    "static/media/fixedMenu.jpg": "/static/media/fixedMenu.b8c4c0ffd1cc80c94750.jpg",
+    "static/media/emailEx.jpg": "/static/media/emailEx.7d660237ce4303f003ac.jpg",
+    "static/media/email.png": "/static/media/email.1ba17f00a43eb138da78.png",
+    "static/media/cloud-connects.png": "/static/media/cloud-connects.977e0369cf67ef6af557.png",
+    "static/media/laptop.png": "/static/media/laptop.5a6363f13da49037d6d1.png",
+    "static/media/email (1).png": "/static/media/email (1).5828bb141e81987c0364.png",
+    "static/media/location.png": "/static/media/location.54703a9241fc29af3336.png",
+    "static/media/phone (4).png": "/static/media/phone (4).bd7cfd38f6bdfb34d359.png",
+    "static/media/ratings.png": "/static/media/ratings.6f53b0c979fdf715bd05.png",
+    "static/media/phone (3).png": "/static/media/phone (3).5c0c09b91fadb23083c0.png",
+    "static/media/location (1).png": "/static/media/location (1).af89e5831d995727eb68.png",
+    "static/media/messages.png": "/static/media/messages.788d6b5ac9f61ebe7d5a.png",
+    "static/media/microchip.png": "/static/media/microchip.50d03f61ae54138fc117.png",
+    "static/media/instagram.png": "/static/media/instagram.edb90ecc706a7a25542b.png",
+    "static/media/bell.png": "/static/media/bell.3dbc743258f874f1b75e.png",
+    "static/media/api.png": "/static/media/api.b0ce2373e966fb9afb34.png",
+    "static/media/ux.png": "/static/media/ux.ea8addcb525737256d96.png",
+    "static/media/map.png": "/static/media/map.bc98275b2262844f9ffa.png",
+    "static/media/laptop (1).png": "/static/media/laptop (1).29869ef4ca9bbf2144f3.png",
+    "static/media/mobile.png": "/static/media/mobile.61971c28d9743b0b7a7c.png",
+    "index.html": "/index.html",
+    "main.036eef25.css.map": "/static/css/main.036eef25.css.map",
+    "main.170cd57d.js.map": "/static/js/main.170cd57d.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.036eef25.css",
+    "static/js/main.170cd57d.js"
+  ]
+}

@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.mini-t {
+    background-color: silver;
+    width: calc(100%-1rem);
+    padding: 1rem;
+}
+
+.post {
+    background-color: lightblue;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.blog-box {
+    position: relative;
+    right: 10rem;
+    width: 40%;
+    min-height: 30rem;
+    height: fit-content;
+    margin-left: 8rem;
+    background-color: aliceblue;
+}
+
+#p-form {
+    position: fixed;
+    top: 15rem;
+    right: 5rem;
+}

@@ -1,0 +1,1217 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    font-family: sans-serif;
+    /* font-family: cursive; */
+}
+
+ul {
+    margin-left: 2rem;
+    width: 100%;
+    /* padding-left: 1rem; */
+}
+
+li {
+    padding: 1rem;
+    margin-left: 0rem;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    font-stretch: extra-expanded;
+}
+
+p {
+    height: fit-content;
+    max-width: 40rem;
+}
+
+button {
+    background-color: #36dcfb;
+    border-radius: 100px;
+    box-shadow: rgba(44, 182, 187, 0.2) 0 -25px 18px -14px inset, rgba(44, 187, 170, 0.15) 0 1px 2px, rgba(44, 187, 170, 0.15) 0 2px 4px, rgba(44, 187, 177, 0.15) 0 4px 8px, rgba(44, 182, 187, 0.15) 0 8px 16px, rgba(44, 187, 185, 0.15) 0 16px 32px;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-bottom: 2rem;
+}
+
+button:hover {
+    box-shadow: rgba(44, 170, 187, 0.35) 0 -25px 18px -14px inset, rgba(44, 120, 187, 0.25) 0 1px 2px, rgba(44, 113, 187, 0.25) 0 2px 4px, rgba(44, 99, 187, 0.25) 0 4px 8px, rgba(44, 92, 187, 0.25) 0 8px 16px, rgba(44, 99, 187, 0.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+input {
+    width: 25rem;
+    border-radius: 5px;
+    padding-left: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset
+}
+
+select {
+    width: 25.7rem;
+    height: 35px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+h5 {
+    text-align: left;
+}
+
+hr {
+    margin: 1rem;
+}
+
+textarea {
+    width: 25rem;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: 2px black solid;
+    padding-left: 5px;
+}
+
+a {
+    background-color: #fafafa;
+    text-decoration: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #309bbf;
+    min-width: 8rem;
+    min-height: 40px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+a:hover {
+    background-color: #36dcfb;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#graphics {
+    margin: 2rem auto;
+    width: 70%;
+
+}
+
+.flex-bend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#whatWeOffer {
+    font-size: 50px;
+    font-stretch: extra-expanded;
+    line-height: 3rem;
+}
+
+.flex-bend-rev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.flex-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.flex-inline {
+    display: inline-flex;
+}
+
+.color {
+    background-color: #309bbf;
+}
+
+.g-glow {
+    box-shadow: #309bbf 0px 25px 40px -5px;
+}
+
+.projects {
+    height: fit-content;
+    min-height: 70vh;
+    width: 40%;
+}
+
+.border {
+    border: 2px #d1d2d2 solid;
+    border-radius: 3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* #diagrams {
+    background-image: url("./Images/serv-diagrams.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    height: 51rem;
+    margin: auto;
+} */
+
+.prev {
+    width: 60%;
+    height: 35rem;
+    margin: 1rem auto;
+    border: 2rem #309bbf double;
+}
+
+li {
+    text-align: left;
+}
+
+.list {
+    border: 1rem #309bbf double;
+    padding: 2rem;
+    width: 20%;
+    height: 30rem;
+    margin: auto;
+    background-color: rgba(192, 192, 192, 0.6);
+}
+
+.title {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 4px #36dcfb solid;
+    margin-bottom: 3.5rem;
+}
+
+.h-head {
+    font-size: 3.7rem;
+    line-height: 3rem;
+}
+
+#h-nav {
+    width: vw;
+    opacity: 1;
+    background-color: whitesmoke;
+    z-index: 10;
+    height: 7rem;
+}
+
+#pic-tit {
+    margin: 0;
+    padding-top: 0;
+    position: relative;
+    top: 30%;
+    right: 20rem;
+    line-height: 3rem;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.btns {
+    background-color: #36dcfb;
+    border-radius: .5rem;
+    color: black;
+    width: 5rem;
+    height: 40px;
+    font-weight: bold;
+}
+
+.btns:hover {
+    background-color: #309bbf;
+    color: white;
+    cursor: pointer;
+}
+
+#fxd-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 4rem;
+    border-bottom: 6px #36dcfb double;
+    background-color: #fafafa;
+    z-index: +1;
+
+}
+
+.body {
+    padding: 2rem;
+    background-image: url("./Images/microchip.png");
+    background-color: whitesmoke;
+    background-size: 40rem;
+    background-repeat: no-repeat;
+    margin: 4rem auto;
+    height: 40rem;
+    width: 60%;
+    border-radius: 5px;
+    background-position: right;
+}
+
+.text-box {
+    background-color: #36dcfb;
+    border-radius: 1rem;
+    color: black;
+    width: 30rem;
+    opacity: .5;
+    height: 40rem;
+    font-weight: bolder;
+}
+
+.text-box>* {
+    z-index: 10;
+    position: relative;
+}
+
+#foot {
+    position: relative;
+    bottom: -2rem;
+    background-color: #309bbf;
+    min-height: 8rem;
+    padding-top: 2rem;
+}
+
+.c-box {
+    width: 6rem;
+    height: 6rem;
+}
+
+#tester {
+    background-color: rgb(244, 85, 151);
+    background-color: #14e1c9;
+    height: 8rem;
+    width: 8rem;
+}
+
+.chunk {
+    background-color: #fafafa;
+    background-size: cover;
+    width: 70%;
+    min-width: 20rem;
+    margin: 2rem auto;
+    height: fit-content;
+    min-height: 10rem;
+    padding: 7rem 2rem 2rem;
+}
+
+.p-1 {
+    padding: 2rem;
+}
+
+#wire-frames {
+    margin: 0rem auto;
+    background-image: url("./Images/fixedRestEx.jpg");
+    background-repeat: no-repeat;
+    background-size: 33rem;
+    background-position: center;
+    height: 23rem;
+    width: 33rem;
+}
+
+#orderPg {
+    margin: 0rem auto;
+    background-image: url("./Images/fixedOrders.jpg");
+    background-repeat: no-repeat;
+    background-size: 33rem;
+    background-position: center;
+    height: 23rem;
+    width: 33rem;
+}
+
+#menuEx {
+    margin: 0rem auto;
+    background-image: url("./Images/fixedMenu.jpg");
+    background-repeat: no-repeat;
+    background-size: 33rem;
+    background-position: center;
+    height: 23rem;
+    width: 33rem;
+}
+
+#emailEx {
+    margin: 0rem auto;
+    background-image: url("./Images/emailEx.jpg");
+    background-repeat: no-repeat;
+    background-size: 33rem;
+    background-position: center;
+    height: 23rem;
+    width: 33rem;
+}
+
+.logo {
+    background-image: url("./Images/StratusNoBg.png");
+    background-size: 13rem;
+    height: 15rem;
+    width: 13rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+    margin-right: 1rem;
+}
+
+#services {
+    background-color: #309bbf;
+    padding: 5px;
+    border: 3px #d3d3d3 solid;
+    width: 8rem;
+    height: 40px;
+    font-weight: 700;
+}
+
+#services:hover {
+    background-color: #fafafa;
+    cursor: pointer;
+    color: #309bbf;
+}
+
+.a-nav {
+    position: sticky;
+    top: 0rem;
+    left: 0;
+    height: 6rem;
+    background-color: whitesmoke;
+    padding: 5px 0;
+    z-index: +1;
+    width: calc(100vw - 1rem);
+}
+
+.l-box {
+    width: 40%;
+    margin: 5rem 3rem;
+    height: fit-content;
+    min-height: 20rem;
+    padding: 4rem 2rem;
+    background-color: #f7f7f7;
+}
+
+#fs-des {
+    background-image: url("./Images//FSnoBg.png");
+    background-size: 50rem;
+    height: 16rem;
+    width: 50rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 0;
+    top: 1rem;
+    margin: 5rem auto;
+}
+
+#c-app {
+
+    margin: 0rem auto;
+    background-image: url("./Images/ux.png");
+    background-size: 25rem;
+    height: 25rem;
+    width: 25rem;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#Sapi {
+    position: relative;
+    right: 0;
+    top: 1rem;
+    margin: 5rem auto;
+    background-image: url("./Images/api.png");
+    background-size: 30rem;
+    height: 30rem;
+    width: 30rem;
+    background-repeat: no-repeat;
+}
+
+#serv-des {
+    position: relative;
+    right: 0;
+    top: 1rem;
+    margin: 5rem auto;
+    /* background-image: url("./Images/computer.png"); */
+    background-size: 20rem;
+    height: 20rem;
+    width: 20rem;
+    background-repeat: no-repeat;
+}
+
+#opt-data {
+    position: relative;
+    right: 0;
+    top: 1rem;
+    margin: 5rem auto;
+    background-image: url("./Images/optStore.png");
+    background-size: 30rem;
+    height: 20rem;
+    width: 30rem;
+    background-repeat: no-repeat;
+}
+
+#opt-t {
+    position: relative;
+    right: 0;
+    top: 1rem;
+    margin: 5rem auto;
+    background-image: url("./Images/cloud-connects.png");
+    background-size: 20rem;
+    height: 20rem;
+    width: 20rem;
+    background-repeat: no-repeat;
+}
+
+.l-nav {
+    position: fixed;
+    left: 0rem;
+    background-color: #36dcfb;
+    height: 100%;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.b-box {
+    width: 92%;
+    min-height: 20rem;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+}
+
+.d3-text {
+    font-weight: 2rem;
+    margin: 0rem auto;
+    font-size: 80px;
+    color: #309bbf;
+    line-height: 6rem;
+    text-shadow: 1px 1px 1px grey,
+        1px 2px 1px grey,
+        1px 3px 1px grey,
+        1px 4px 1px grey,
+        1px 5px 1px grey;
+    /* 1px 6px 1px darkgray,
+        1px 7px 1px darkgray,
+        1px 8px 1px darkgray,
+        1px 9px 1px darkgray,
+        1px 10px 1px darkgray; */
+}
+
+
+.service-head {
+    background-image: url("./Images/bird-cloud-view.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: -2em;
+}
+
+#nav-div {
+    background-image: url("./Images/bird-cloud-view.jpg");
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 6rem;
+    padding-top: 6rem;
+}
+
+.nav-boxs {
+    height: 25rem;
+    width: 20rem;
+    background-image: linear-gradient(whitesmoke, silver);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    padding: 5px;
+}
+
+.nav-boxs:hover {
+    background-image: linear-gradient(whitesmoke, whitesmoke);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transform: scale(1.05) rotate(-3deg);
+    transition: 400ms;
+}
+
+#design-tag {
+    background-image: url("./Images/illustration.png");
+    background-repeat: no-repeat;
+    background-size: 9rem;
+    height: 9rem;
+    background-position: center;
+}
+
+#deploy-tag {
+    background-image: url("./Images/cloud-connects.png");
+    background-repeat: no-repeat;
+    background-size: 9rem;
+    height: 9rem;
+    background-position: center;
+}
+
+.t-mini {
+    position: relative;
+    bottom: 2rem;
+    border-radius: 6px 6px 0 0;
+    font-weight: 700;
+    font-size: xx-large;
+    border-bottom: 2px grey solid;
+}
+
+#h-pic {
+    background-image: url("./Images/cloudNet.jpg");
+    background-size: 40rem;
+    background-repeat: no-repeat;
+    height: 26.7rem;
+    width: 41rem;
+    margin-top: 1rem;
+    border-radius: 7px;
+}
+
+.info-box {
+    padding: 2rem;
+}
+
+#conformation-box {
+    position: absolute;
+    top: 10rem;
+    left: 35%;
+    width: 30%;
+    min-width: 20rem;
+    background-color: whitesmoke;
+    height: 65%;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#thanks-box {
+    width: 70%;
+    margin: 13% auto;
+    height: 8rem;
+    padding: 1rem;
+}
+
+#closer {
+    width: calc(100% - 10px);
+    background-color: #309bbf;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding-right: 10px;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+
+#LI {
+    background-image: url("./Images/linkedin.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+}
+
+#IG {
+    background-image: url("./Images/instagram.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+}
+
+#davidPg {
+    background-image: url("./Images/davidPg.jpg");
+    background-size: 40rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    width: 40rem;
+}
+
+#wide-hr {
+    width: 90%;
+}
+
+.a-logo {
+    position: absolute;
+    left: 3rem;
+    background-size: 11rem;
+    width: 11rem;
+}
+
+@media(max-width:1550px) {
+    #wire-frames {
+        margin: 0rem auto;
+        background-image: url("./Images/fixedRestEx.jpg");
+        background-repeat: no-repeat;
+        background-size: 30rem;
+        background-position: center;
+        height: 23rem;
+        width: 30rem;
+    }
+
+    #orderPg {
+        margin: 0rem auto;
+        background-image: url("./Images/fixedOrders.jpg");
+        background-repeat: no-repeat;
+        background-size: 30rem;
+        background-position: center;
+        height: 23rem;
+        width: 30rem;
+    }
+
+    #menuEx {
+        margin: 0rem auto;
+        background-image: url("./Images/fixedMenu.jpg");
+        background-repeat: no-repeat;
+        background-size: 30rem;
+        background-position: center;
+        height: 23rem;
+        width: 30rem;
+    }
+
+    #emailEx {
+        margin: 0rem auto;
+        background-image: url("./Images/emailEx.jpg");
+        background-repeat: no-repeat;
+        background-size: 30rem;
+        background-position: center;
+        height: 23rem;
+        width: 30rem;
+    }
+}
+
+@media (max-width: 1450px) {
+    #wire-frames {
+        margin: 0rem auto;
+        background-image: url("./Images/fixedRestEx.jpg");
+        background-repeat: no-repeat;
+        background-size: 27rem;
+        background-position: center;
+        height: 18rem;
+        width: 27rem;
+    }
+
+    #davidPg {
+        background-size: 30rem;
+    }
+
+    #orderPg {
+        margin: 0rem auto;
+        background-image: url("./Images/fixedOrders.jpg");
+        background-repeat: no-repeat;
+        background-size: 27rem;
+        background-position: center;
+        height: 18rem;
+        width: 27rem;
+    }
+
+    #menuEx {
+        margin: 0rem auto;
+        background-image: url("./Images/fixedMenu.jpg");
+        background-repeat: no-repeat;
+        background-size: 27rem;
+        background-position: center;
+        height: 18rem;
+        width: 27rem;
+    }
+
+    #emailEx {
+        margin: 0rem auto;
+        background-image: url("./Images/emailEx.jpg");
+        background-repeat: no-repeat;
+        background-size: 27rem;
+        background-position: center;
+        height: 18rem;
+        width: 27rem;
+    }
+
+    .d3-text {
+        font-size: 60px;
+        line-height: 4rem;
+    }
+
+    li {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    #Sapi {
+        background-size: 21rem;
+        height: 21rem;
+        width: 21rem;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    #h-pic {
+        background-size: 35rem;
+        width: 38rem;
+    }
+
+    #wire-frames {
+        margin: 0rem auto;
+        background-image: url("./Images/fixedRestEx.jpg");
+        background-repeat: no-repeat;
+        background-size: 24rem;
+        background-position: center;
+        height: 15rem;
+        width: 24rem;
+    }
+
+    #orderPg {
+        margin: 0rem auto;
+        background-image: url("./Images/fixedOrders.jpg");
+        background-repeat: no-repeat;
+        background-size: 24rem;
+        background-position: center;
+        height: 15rem;
+        width: 24rem;
+    }
+
+    #menuEx {
+        margin: 0rem auto;
+        background-image: url("./Images/fixedMenu.jpg");
+        background-repeat: no-repeat;
+        background-size: 24rem;
+        background-position: center;
+        height: 15rem;
+        width: 24rem;
+    }
+
+    #emailEx {
+        margin: 0rem auto;
+        background-image: url("./Images/emailEx.jpg");
+        background-repeat: no-repeat;
+        background-size: 24rem;
+        background-position: center;
+        height: 15rem;
+        width: 24rem;
+    }
+
+    li {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1200px) {
+    #Sapi {
+        background-size: 16rem;
+        height: 16rem;
+        width: 16rem;
+    }
+
+    .a-logo {
+        position: absolute;
+        background-size: 9rem;
+        width: 9rem;
+        left: 0;
+    }
+
+    li {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    /* #wire-frames {
+        background-size: 27rem;
+        height: 16rem;
+        width: 27rem;
+    }
+
+    #orderPg {
+        background-size: 27rem;
+        height: 16rem;
+        width: 27rem;
+    } */
+
+    #c-app {
+        background-size: 16rem;
+        height: 16rem;
+        width: 16rem;
+        background-position: center;
+        margin: auto;
+    }
+
+    a {
+        min-width: 6rem;
+        width: 1rem !important;
+        font-size: 15px;
+    }
+
+    #fs-des {
+        background-size: 40rem;
+        width: 40rem;
+    }
+}
+
+@media(max-width:1000px) {
+
+    .a-logo {
+        position: absolute;
+        background-size: 8rem;
+        width: 8rem;
+        left: 0;
+    }
+
+    #h-pic {
+        background-size: 30rem;
+        width: 33rem;
+    }
+
+    .a-nav {
+        padding-left: 0rem;
+    }
+
+    #fs-des {
+        background-size: 35rem;
+        width: 35rem;
+        height: 12rem;
+        /* margin: 2rem; */
+    }
+}
+
+@media(max-width:900px) {
+    .flex-bend {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0;
+        margin: 0;
+
+    }
+
+    .flex-bend-rev {
+        flex-direction: column-reverse;
+        gap: 0;
+        margin: 0;
+
+    }
+
+    ul {
+        width: 100rem;
+    }
+
+    li {
+        font-size: 21px;
+        line-height: 23px;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 20px;
+
+    }
+
+    p {
+        font-weight: 560;
+    }
+
+    .h-head {
+        font-size: 2.7rem;
+        line-height: 3rem;
+    }
+
+    #h-pic {
+        background-size: 35rem;
+        width: 35rem;
+    }
+
+    .chunk {
+        background-color: transparent;
+        margin: 0 auto;
+    }
+
+    .nav-boxs {
+        margin: 10px;
+        min-width: 8rem;
+        height: 22rem;
+    }
+
+    #nav-div {
+        gap: 0;
+    }
+
+    .d3-text {
+        /* background-color: #f5f5f5; */
+        color: whitesmoke;
+        padding: 1rem;
+        width: 90%;
+        text-shadow: 1px 1px 1px grey,
+            1px 2px 1px grey,
+            1px 3px 1px grey;
+    }
+
+    #fs-des {
+        background-size: 50rem;
+        width: 50rem;
+        height: 15rem;
+    }
+
+    .chunk {
+        width: calc(100vw - 7rem);
+    }
+
+    #c-app {
+        background-size: 15rem;
+    }
+
+    .l-box {
+        margin: 1rem 0 -2rem 0;
+        width: 80%;
+    }
+
+    #wire-frames {
+        margin: 0rem auto;
+        background-image: url("./Images/fixedRestEx.jpg");
+        background-repeat: no-repeat;
+        background-size: 34rem;
+        background-position: center;
+        height: 23rem;
+        width: 34rem;
+    }
+
+
+    #orderPg {
+        margin: 0rem auto;
+        background-image: url("./Images/fixedOrders.jpg");
+        background-repeat: no-repeat;
+        background-size: 34rem;
+        background-position: center;
+        height: 23rem;
+        width: 34rem;
+    }
+
+    #menuEx {
+        margin: 0rem auto;
+        background-image: url("./Images/fixedMenu.jpg");
+        background-repeat: no-repeat;
+        background-size: 34rem;
+        background-position: center;
+        height: 23rem;
+        width: 34rem;
+    }
+
+    #emailEx {
+        margin: 0rem auto;
+        background-image: url("./Images/emailEx.jpg");
+        background-repeat: no-repeat;
+        background-size: 34rem;
+        background-position: center;
+        height: 23rem;
+        width: 34rem;
+    }
+}
+
+@media(max-width:800px) {
+    input {
+        width: 15rem;
+    }
+
+    textarea {
+        width: 15rem;
+    }
+
+    select {
+        width: 15.5rem;
+    }
+
+    .d3-text {
+        font-size: 60px;
+        line-height: 4rem;
+    }
+
+    /* .d3-text {
+        font-size: 40px;
+        line-height: 3.4rem;
+    } */
+
+    /* .a-logo {
+        position: absolute;
+        left: 10px;
+    } */
+
+    .a-nav {
+        padding-left: 5rem;
+        width: calc(100vw - 5rem);
+    }
+
+    a {
+        min-width: 4rem;
+        font-size: 12px;
+    }
+
+    #fs-des {
+        background-size: 43rem;
+        width: 42rem;
+    }
+
+    #c-app {
+        background-size: 15rem;
+    }
+
+    ul {
+        width: 100%;
+    }
+
+
+}
+
+@media(max-width:600px) {
+    .a-logo {
+        background-size: 8rem;
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .logo {
+        background-size: 9rem;
+        height: 5rem;
+        width: 13rem;
+        background-position: center;
+    }
+
+    .a-nav {
+        padding-left: 6rem;
+        width: calc(100vw - 6rem);
+    }
+
+    #whatWeOffer {
+        font-size: 40px;
+        width: 90vw;
+    }
+
+    #wide-hr {
+        width: 80vw;
+    }
+
+    .d3-text {
+        font-size: 40px;
+        line-height: 2.5rem;
+    }
+
+    .nav-boxs {
+        margin: 10px;
+        min-width: 8rem;
+        height: 18rem;
+    }
+
+    ul {
+        width: 85vw;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    #davidPg {
+        background-size: 21rem;
+        height: 14rem;
+    }
+
+    #h-pic {
+        background-size: 20rem;
+        width: 20rem;
+        height: 20rem;
+        background-position: center;
+    }
+
+    #wire-frames {
+        margin: 0rem auto;
+        background-image: url("./Images/fixedRestEx.jpg");
+        background-repeat: no-repeat;
+        background-size: 22rem;
+        background-position: center;
+        height: 14rem;
+        width: 22rem;
+    }
+
+    #orderPg {
+        margin: 0rem auto;
+        background-image: url("./Images/fixedOrders.jpg");
+        background-repeat: no-repeat;
+        background-size: 22rem;
+        background-position: center;
+        height: 14rem;
+        width: 22rem;
+    }
+
+    #menuEx {
+        margin: 0rem auto;
+        background-image: url("./Images/fixedMenu.jpg");
+        background-repeat: no-repeat;
+        background-size: 22rem;
+        background-position: center;
+        height: 14rem;
+        width: 22rem;
+    }
+
+    #emailEx {
+        margin: 0rem auto;
+        background-image: url("./Images/emailEx.jpg");
+        background-repeat: no-repeat;
+        background-size: 22rem;
+        background-position: center;
+        height: 14rem;
+        width: 22rem;
+    }
+
+    .h-head {
+        font-size: 25px;
+    }
+
+    #fs-des {
+        background-size: 22rem;
+        width: 20rem;
+        height: 7rem;
+        margin: 1rem 0rem;
+        background-position: center;
+    }
+
+    #c-app {
+        height: 20rem;
+    }
+
+}
+
+@media(max-width:500px) {
+    .a-logo {
+        background-size: 6rem;
+        width: 6rem;
+        left: 0;
+        height: 10rem;
+    }
+
+    a {
+        min-width: 40px;
+        font-size: 10px;
+        font-weight: 800;
+        line-height: 10px;
+    }
+}
